@@ -13,52 +13,33 @@ class browser {
 		if($this->isInternetExplorer()) {
 			$this->valid = false;
 			$this->message = LANG['browser_not_supported'];
-		}
-		elseif($this->isFirefox()) {
-			$this->valid = false;
-			$this->message = LANG['browser_not_supported_calendar_field'];
-		}
-		elseif($this->isSafari()) {
-			$this->valid = false;
-			$this->message = LANG['browser_not_supported_calendar_field'];
-		}
-		else {
+		} else {
 			$this->valid = true;
 		}
 	}
 
 	private function isInternetExplorer() {
-		$ua = $_SERVER["HTTP_USER_AGENT"];
+		$ua = $_SERVER['HTTP_USER_AGENT'];
 		return (preg_match('~MSIE|Internet Explorer~i', $ua) || (strpos($ua, 'Trident/7.0; rv:11.0') !== false));
-	}
-
-	private function isFirefox() {
-		$ua = $_SERVER["HTTP_USER_AGENT"];
-		return boolval(strpos($ua, 'Firefox'));
-	}
-
-	private function isSafari() {
-		$ua = $_SERVER["HTTP_USER_AGENT"];
-		return (strpos($ua, 'Safari') && !strpos($ua, 'Chrome'));
 	}
 
 	/* functions for detecting browsers and operating systems */
 	public static function getOperatingSystem() {
-		$ua = $_SERVER["HTTP_USER_AGENT"];
+		$ua = $_SERVER['HTTP_USER_AGENT'];
 		if(strpos($ua, 'Android'))
-			return "Android";
+			return 'Android';
 		elseif(strpos($ua, 'iPhone') || strpos($ua, 'iPad'))
-			return "iPhone";
+			return 'iPhone';
 		elseif(strpos($ua, 'Palm'))
-			return "Palm";
+			return 'Palm';
 		elseif(strpos($ua, 'Linux'))
-			return "Linux";
+			return 'Linux';
 		elseif(strpos($ua, 'Macintosh'))
-			return "Macintosh";
+			return 'Macintosh';
 		elseif(strpos($ua, 'Windows'))
-			return "Windows";
+			return 'Windows';
 		else
-			return "Unknown";
+			return 'Unknown';
 	}
 
 	/*** for detecting different versions

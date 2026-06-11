@@ -1,7 +1,7 @@
 44656ed0e14293d377c87d87d0991f55  api.php
 b24f1273bdec1c689792d648bd26a3b4  autoplan.php
 562c4622f7996e29b2744fcde9be153c  boxes.php
-c1aae2caf63a92a44e5d64b973237278  browser.php
+4e079d89dc9db0f72738df7b6f569051  browser.php
 bc4e02f745e511b24365bdb19d248d58  color.php
 baa481c01d9d3bf07c2e8bb3f23c11d6  const.php
 57e7dfd5a0d4c34c09188d3afb1a5de7  db.php

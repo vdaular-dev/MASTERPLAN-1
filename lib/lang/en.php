@@ -2,7 +2,7 @@
 const LANG = [
 	'app_name' => 'MASTERPLAN',
 	'app_subtitle' => 'web based open source workforce management',
-	'copyright' => '&copy; Georg Sieber 2019 - 2021',
+	'copyright' => '&copy; Georg Sieber 2019 - 2026',
 	'permission_error' => 'You do not have the necessary access rights',
 	'master_data' => 'Base Data',
 	'rosters_and_services' => 'Rosters and Services',
@@ -424,7 +424,6 @@ const LANG = [
 	'please_choose_username_and_password_for_superadmin_user' => 'Please choose a login name and password for the superadmin user.',
 	'please_import_database_schema' => 'Please import the database schema from /lib/sql/masterplan.sql and reload the page.',
 	'browser_not_supported' => 'Your browser is not being supported. Please use a Chromium-based web browser.',
-	'browser_not_supported_calendar_field' => 'Your browser is not supported because it does not support week selection fields. Please use a Chromium-based web browser.',
 	'new_service_swap_request' => 'New service swap request',
 	'new_absence_request' => 'New absence request',
 	'absence_request_confirmed' => 'Absence request confirmed',
