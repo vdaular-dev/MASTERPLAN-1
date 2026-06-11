@@ -35,7 +35,7 @@ const LANG = [
 	'you_have_admin_rights_for_following_rosters' => 'Sie besitzen Admin-Rechte für folgende Dienstpläne:',
 	'you_are_assigned_to_the_following_rosters' => 'Sie sind folgenden Dienstplänen zugeteilt:',
 	'donation_note' => 'Wenn Sie diese Software im Produktivbetrieb einsetzen, denken Sie bitte über eine Spende über den <a target="_blank" href="https://github.com/schorschii/masterplan">Spendenbutton auf GitHub</a> nach, um die Weiterentwicklung zu finanzieren.',
-	'commercial_support_note' => 'Kommerzieller Support sowie Weiterentwicklungen sind auf Angebotsbasis möglich. Bitte nehmen Sie <a target="_blank" href="https://georg-sieber.de/?page=impressum">Kontakt</a> auf.',
+	'commercial_support_note' => 'Sie können kommerziellen Support sowie Weiterentwicklungen direkt vom Hersteller erhalten. <a target="_blank" href="https://georg-sieber.de/impressum">Jetzt Kontakt aufnehmen</a>',
 	'you_are_using_the_evaluation_license' => 'Sie verwenden die für 5 Benutzer kostenfreie Evaluationslizenz',
 	'evaluation_license' => 'Evaluationslizenz',
 	'invalid_license_file' => 'Die hochgeladene Lizenzdatei ist keine valide MASTERPLAN-Lizenzdatei. Möglicherweise wurde sie manipuliert oder ist beschädigt.',

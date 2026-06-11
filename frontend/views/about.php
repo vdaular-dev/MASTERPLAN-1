@@ -21,11 +21,13 @@ if(!isset($currentUser)) die();
 <div class='contentbox small'>
 	<div class='about subtitle center'>
 		<img id='vendor-logo' src='img/vendor-logo.png' alt='Georg Sieber Logo'>
-		<p class='bold'>
-			<?php echo LANG['version']; ?> <?php echo VERSION; ?>
+		<p>
+			<span class='bold'><?php echo LANG['version']; ?> <?php echo VERSION; ?></span>
+			<br>
+			<?php echo LANG['copyright']; ?>
 		</p>
 		<p>
-			<?php echo LANG['copyright']; ?>
+			<?php echo LANG['commercial_support_note']; ?>
 		</p>
 		<p>
 			<a href='https://georg-sieber.de'>https://georg-sieber.de</a>

@@ -35,7 +35,7 @@ const LANG = [
 	'you_have_admin_rights_for_following_rosters' => 'You have admin rights for the following duty rosters:',
 	'you_are_assigned_to_the_following_rosters' => 'You are assigned to the following rosters:',
 	'donation_note' => 'If you use this software in productive operation, please think about a donation via the <a target="_blank" href="https://github.com/schorschii/masterplan">donation button on GitHub</a> in order to receive the to finance further development.',
-	'commercial_support_note' => 'Commercial support and further developments are possible on an offer basis. Please <a target="_blank" href="https://georg-sieber.de/?page=impressum">contact me</a> if you are interested.',
+	'commercial_support_note' => 'You can get commercial support and further developments directly from the vendor. <a target="_blank" href="https://georg-sieber.de/impressum">Contact now</a>',
 	'you_are_using_the_evaluation_license' => 'You use the evaluation license free of charge for 5 users',
 	'evaluation_license' => 'Evaluation License',
 	'invalid_license_file' => 'The uploaded license file is not a valid MASTERPLAN license file. It may have been tampered with or damaged.',

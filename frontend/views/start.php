@@ -9,25 +9,24 @@ $userRosters = $db->getUserRosters($currentUser->id);
 	<img id='logo' src='img/logo.png'>
 	<div class='start subtitle'><?php LANG['app_subtitle']; ?></div>
 	<br>
-	<div class='infobox gray hint'>
-		<?php if($lic->licenseUsers <= license::FREE_USERS) { ?>
-			<?php echo LANG['donation_note']; ?>
-			<br><br>
-		<?php } ?>
-		<?php echo LANG['commercial_support_note']; ?>
+	<?php if($lic->licenseValid) { ?>
+	<div class='center'>
+		<h2><?php echo htmlspecialchars($lic->licenseCompany); ?></h2>
 	</div>
+	<?php } ?>
+	<?php if($lic->licenseUsers <= license::FREE_USERS) { ?>
+		<div class='infobox gray hint'>
+			<?php echo LANG['donation_note']; ?>
+		</div>
+	<?php } ?>
 </div>
 
 <?php if($currentUser->superadmin > 0 || count($adminRosters) > 0 || count($userRosters) > 0) { ?>
 
 <div class='contentbox small'>
 
-<?php if($lic->licenseValid) { ?>
-	<h2><?php echo htmlspecialchars($lic->licenseCompany); ?></h2>
-<?php } ?>
-
 <?php if($currentUser->superadmin > 0) { ?>
-	<div class='infobox yellow'><?php echo LANG['you_have_superadmin_rights']; ?></div>
+	<div class='infobox'><?php echo LANG['you_have_superadmin_rights']; ?></div>
 <?php } ?>
 
 <?php if(count($adminRosters) > 0) { ?>
